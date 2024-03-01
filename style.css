@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.bg-orange {
+    background-color: #ff5a2c;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-darkblue {
+    background-color: #111B51;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* border: 2px solid yellow; */
+}
+
+li {
+    padding: 10px;
+}
+
+.btn-o {
+    color: #ff5a2c;
+    border: 1px solid#ff5a2c;
+}
+
+.btn-o:hover {
+    color: white;
+    background-color: #ff5a2c;
+}
+
+.btn-w {
+    color: white;
+    border: 1px solid white;
+}
+
+marquee {
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+}
+
+header {
+    position: absolute;
+    height: 70px;
+    line-height: 70px;
+}
+
+.innerHead {
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: 5;
+    color: orangered;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+.banner-area {
+    height: 100vh;
+}
+
+.banner-content {
+    margin-top: 12%;
+}
+
+.bg-darkblue img {
+    max-width: 2cm;
+}
+
+.cs-service {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+
+@media screen and (min-width: 992px) {
+    .cs-border-right {
+        border-right: 1px solid white;
+    }
+}
+
+.cs-service:hover {
+    background-color: #005CFF;
+}
+
+.cs-service:hover .btn {
+    background-color: #d4490d;
+}
+
+.Enterprise {
+    border-bottom: 1px solid white;
+}
+
+.Eprbb {
+    border-bottom: 1px solid white;
+}
+
+.Eprrb {
+    border-right: 1px solid white;
+}
+
+.Eprlb {
+    border-left: 1px solid white;
+}
+
+@media screen and (min-width: 992px) {
+    .Eprlsb {
+        border-left: 1px solid white;
+    }
+
+    .Eprbb {
+        border-bottom: none;
+    }
+}
+
+.Enterprise:hover {
+    background-color: #005CFF;
+}
+
+.Eprbb:hover {
+    background-color: #005CFF;
+}
+
+.Eprlb:hover {
+    background-color: #005CFF;
+}
+
+.Eprlsb:hover {
+    background-color: #005CFF;
+}
+
+.faq {
+    font-size: 20px;
+    background-color: white;
+}
+
+.faq:hover {
+    background-color: whitesmoke
+}
+
+.coffi {
+    display: none;
+}
+
+@media screen and (min-width:600px) {
+    .coffi {
+        display: block;
+    }
+}
+
+.odc {
+    display: none;
+}
+
+.od {
+    display: flex;
+}
+
+.odd {
+    position: relative;
+    top: 2cm;
+}
+
+@media screen and (min-width:768px) {
+    .od {
+        display: block;
+    }
+
+    .odc {
+        display: block;
+    }
+}
